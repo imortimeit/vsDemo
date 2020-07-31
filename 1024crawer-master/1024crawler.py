@@ -167,8 +167,7 @@ if __name__ == "__main__":
     print("1--更新")
     print("2--查询")
     print("3--取得文章")
-    print("4--取得图片")
-    choose = input("请输入结果：")
+    choose = input("请结果：")
     if choose == "1":
         crawer()
     else:
